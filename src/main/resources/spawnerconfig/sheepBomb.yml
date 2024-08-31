@@ -1,0 +1,18 @@
+sheepBomb:
+  mob: StaticallyChargedSheep
+  location:
+    world: world
+    x: -63
+    y: 63
+    z: -351
+    yaw: 0
+    pitch: 0
+  count:
+    minCount: 20
+    maxCounter: 100
+  require_player:
+    enabled: true
+    count: 1
+    radius: 10
+  cooldown: 5
+  chance: 100
